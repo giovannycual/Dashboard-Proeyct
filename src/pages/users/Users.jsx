@@ -1,8 +1,16 @@
 import React from 'react'
 import './users.scss'
-function Users() {
+import DataTable from '../../components/dataTable/dataTable'
+
+const Users=()=> {
   return (
-    <div>Users</div>
+    <div className='users'>
+      <div className="info">
+        <button>Add New User</button>
+      </div>
+
+      <DataTable />
+    </div>
   )
 }
 
